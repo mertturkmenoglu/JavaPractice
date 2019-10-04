@@ -2,7 +2,7 @@
 import java.io.File;
 import java.text.SimpleDateFormat;
 
-public class fileRead implements Runnable {
+public class FileRead implements Runnable {
     @Override
     synchronized public void run() {
         while (true) {
